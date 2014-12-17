@@ -12,6 +12,10 @@
 </body>
 
 <template name="leaderboard">
+  <form class="new-player">
+    <input type="text" name="text" placeholder="new player"/>
+    <button class="add">Add new player</button>
+  </form>
   <ol class="leaderboard">
     {{#each players}}
       {{> player}}
