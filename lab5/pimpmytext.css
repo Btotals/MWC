@@ -1,0 +1,61 @@
+body {
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 12pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bg {
+	background-image: url("hundred-dollar-bill.jpg");
+}
+#header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: normal;
+	font-style: italic;
+	font-family: Impact, fantasy;
+}
+
+legend {
+	font-family: "Impact", fantasy;
+	font-size: 120%;
+}
+
+#t1{
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+#TextArea {
+	border:solid 2px #ccc;
+	padding: 5px;
+	position: relative;
+	padding: 15px;
+	margin: 20px 0;
+}
+
+#PinpificationArea {
+	border:solid 2px #ccc;
+	margin: 20px 0;
+	padding: 15px;
+	position: relative;
+}
+
+.AreaTitle {
+	position: absolute;
+	top:-35px;
+	background-color: #fff;
+}
+
+.big {
+	font-size: 24pt;
+}
+
+.bling {
+	color: green;
+	text-decoration: underline blink;
+	font-style: italic;
+}
