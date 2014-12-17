@@ -1,0 +1,31 @@
+<head>
+  <title>Leaderboard</title>
+</head>
+
+<body>
+  <div class="outer">
+    <div class="logo"></div>
+    <h1 class="title">Leaderboard</h1>
+    <div class="subtitle">Select a scientist to give them points</div>
+    {{> leaderboard}}
+  </div>
+</body>
+
+<template name="leaderboard">
+  <form class="new-player">
+    <input type="text" name="text" placeholder="new player"/>
+    <button class="add">Add new player</button>
+  </form>
+  <ol class="leaderboard">
+    {{#each players}}
+      {{> player}}
+    {{/each}}
+  </ol>
+</template>
+
+<template name="player">
+  <li class="player">
+    <span class="name">{{name}}</span>
+    <span class="score">{{score}}</span>
+  </li>
+</template>
